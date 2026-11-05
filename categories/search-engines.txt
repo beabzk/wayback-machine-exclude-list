@@ -1,0 +1,56 @@
+# ==========================================
+# Search Engines & Query Result Pages
+# ==========================================
+# Ephemeral query results that clutter archives and leak private search histories.
+
+# Google Search
+google.com*
+*.google.com*
+
+# Bing
+bing.com*
+*.bing.com*
+
+# DuckDuckGo
+duckduckgo.com*
+*.duckduckgo.com*
+duckduckgo.com/?q=*
+
+# Yahoo Search
+search.yahoo.com*
+
+# Baidu
+baidu.com*
+*.baidu.com*
+
+# Yandex
+yandex.com*
+*.yandex.com*
+yandex.ru*
+*.yandex.ru*
+
+# Ecosia
+ecosia.org*
+*.ecosia.org*
+
+# Kagi
+kagi.com*
+*.kagi.com*
+
+# Startpage
+startpage.com*
+*.startpage.com*
+
+# Brave Search
+search.brave.com*
+brave.com/search*
+
+# Qwant
+qwant.com*
+*.qwant.com*
+
+# SearX / SearXNG
+searx.*
+*.searx.*
+searxng.*
+*.searxng.*

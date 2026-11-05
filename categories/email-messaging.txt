@@ -1,0 +1,85 @@
+# ==========================================
+# Email & Direct Messaging Services
+# ==========================================
+# Private communications and mailbox dashboards.
+
+# Google Workspace / Gmail
+mail.google.com*
+
+# Microsoft Outlook / Office 365
+outlook.live.com*
+outlook.office.com*
+outlook.office365.com*
+mail.live.com*
+
+# Yahoo Mail
+mail.yahoo.com*
+
+# Proton Mail
+proton.me*
+*.proton.me*
+protonmail.com*
+*.protonmail.com*
+
+# Fastmail
+fastmail.com*
+*.fastmail.com*
+
+# Tuta / Tutanota
+tuta.com*
+*.tuta.com*
+tutanota.com*
+*.tutanota.com*
+
+# Zoho Mail
+mail.zoho.com*
+zoho.com/mail*
+
+# Apple iCloud Mail
+mail.icloud.com*
+icloud.com*
+*.icloud.com*
+
+# GMX / Mail.com
+gmx.com*
+*.gmx.com*
+mail.com*
+*.mail.com*
+
+# Discord Channels, Web App & Webhooks
+discord.com/channels/*
+*.discord.com/channels/*
+discordapp.com/channels/*
+*.discordapp.com/channels/*
+discord.com/app*
+*.discord.com/app*
+*.discord.com/api/webhooks/*
+
+# Slack
+slack.com*
+*.slack.com*
+
+# Telegram Web
+web.telegram.org*
+
+# WhatsApp Web
+web.whatsapp.com*
+
+# Signal
+signal.org*
+*.signal.org*
+
+# Microsoft Teams
+teams.microsoft.com*
+teams.live.com*
+
+# Zoom
+zoom.us*
+*.zoom.us*
+
+# Google Meet & Google Chat
+meet.google.com*
+chat.google.com*
+
+# Mattermost
+*.mattermost.com*

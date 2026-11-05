@@ -1,0 +1,33 @@
+name: False Positive Report
+description: Report a public web page that is mistakenly blocked from auto-saving
+title: "False Positive: [Website or Pattern]"
+labels: ["false-positive", "bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to report public reference material, articles, or documentation that are mistakenly excluded.
+  - type: input
+    id: blocked_url
+    attributes:
+      label: Blocked URL
+      description: The public URL that failed to be auto-saved.
+      placeholder: "e.g. https://example.com/public-docs"
+    validations:
+      required: true
+  - type: input
+    id: offending_rule
+    attributes:
+      label: Offending Pattern (if known)
+      description: Which rule or category in this repository caused the exclusion?
+      placeholder: "e.g. */docs* or example.com*"
+    validations:
+      required: false
+  - type: textarea
+    id: explanation
+    attributes:
+      label: Why should this URL be saveable?
+      description: Explain why this page contains public, historical, or reference value that should not be excluded.
+      placeholder: "e.g. This is public open-source documentation that contains no private user state or login credentials."
+    validations:
+      required: true

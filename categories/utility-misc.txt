@@ -1,0 +1,23 @@
+# ==========================================
+# Network Utilities, Routers & Archive Self-Exclusion
+# ==========================================
+
+# Internet Archive & Wayback Machine self-exclusion
+archive.org*
+web.archive.org*
+*.archive.org*
+
+# Router Configuration & Local Network Web Portals
+routerlogin.net*
+tplinkwifi.net*
+my.router*
+fritz.box*
+pi.hole*
+pihole.local*
+setup.amplifi.com*
+
+# Captive Network & Wi-Fi Check Portals
+captive.apple.com*
+connectivitycheck.gstatic.com*
+msftconnecttest.com*
+networkcheck.kde.org*

@@ -1,0 +1,71 @@
+name: Domain Addition Request
+description: Propose a new domain or path pattern to exclude from Auto Save
+title: "Add: [Service or Domain Name]"
+labels: ["enhancement", "rules"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out this form to propose new exclusions for the Wayback Machine Exclude List.
+  - type: input
+    id: service_name
+    attributes:
+      label: Service or Platform Name
+      description: What service or website are you proposing to exclude?
+      placeholder: "e.g. Acme Cloud Dashboard"
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Recommended Category
+      description: Which category file should this belong to?
+      options:
+        - "ai-assistants.txt"
+        - "authentication-idp.txt"
+        - "banking-finance.txt"
+        - "cloud-developer.txt"
+        - "email-messaging.txt"
+        - "search-engines.txt"
+        - "shopping-checkout.txt"
+        - "social-media.txt"
+        - "streaming-heavy-media.txt"
+        - "utility-misc.txt"
+        - "New Category Proposal"
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason for Exclusion
+      description: Why should this domain/path be excluded from auto-saving?
+      placeholder: "e.g. Contains private user account sessions and API keys that break or leak data when auto-archived."
+    validations:
+      required: true
+  - type: textarea
+    id: sample_urls
+    attributes:
+      label: Example URLs
+      description: List representative URLs that trigger auto-saving.
+      placeholder: |
+        https://app.acme.com/dashboard
+        https://app.acme.com/settings/api-keys
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_patterns
+    attributes:
+      label: Proposed Pattern(s)
+      description: What exclusion pattern should be added?
+      placeholder: |
+        app.acme.com*
+        *.app.acme.com*
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Verification
+      options:
+        - label: I verified that this pattern does not over-block public reference material or documentation.
+          required: true

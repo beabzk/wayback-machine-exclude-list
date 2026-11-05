@@ -1,0 +1,42 @@
+# ==========================================
+# Social Media Personal Feeds, Inboxes & Notifications
+# ==========================================
+# User notifications, personal direct messages, and real-time feeds that change continuously.
+
+# Twitter / X Notifications & Direct Messages
+x.com/notifications*
+x.com/messages*
+x.com/i/*
+twitter.com/notifications*
+twitter.com/messages*
+twitter.com/i/*
+
+# Facebook / Meta Notifications & Messenger
+facebook.com/messages*
+facebook.com/notifications*
+messenger.com*
+*.messenger.com*
+
+# Instagram Direct Messages & Stories
+instagram.com/direct/*
+instagram.com/stories/*
+
+# Reddit Inboxes & User Settings
+reddit.com/message/*
+reddit.com/notifications*
+reddit.com/settings*
+
+# LinkedIn Inboxes & Notifications
+linkedin.com/messaging/*
+linkedin.com/notifications/*
+
+# Bluesky & Mastodon Inboxes
+bsky.app/notifications*
+bsky.app/messages*
+
+# TikTok Messages
+tiktok.com/messages*
+
+# Pinterest Inboxes
+pinterest.com/notifications*
+pinterest.com/messages*

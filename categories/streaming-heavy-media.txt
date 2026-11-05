@@ -1,0 +1,39 @@
+# ==========================================
+# Streaming Media & Bandwidth / Speed Tests
+# ==========================================
+# Ephemeral video players and diagnostic sites that create failed or useless snapshots.
+
+# YouTube Watch Player & Creator Studio
+youtube.com/watch*
+*.youtube.com/watch*
+studio.youtube.com*
+music.youtube.com*
+
+# Netflix
+netflix.com/watch*
+*.netflix.com*
+
+# Spotify Web Player
+open.spotify.com*
+
+# Twitch Streams & Dashboard
+twitch.tv*
+*.twitch.tv*
+
+# Disney+
+disneyplus.com*
+*.disneyplus.com*
+
+# Prime Video
+primevideo.com*
+*.primevideo.com*
+
+# SoundCloud Personal Stream
+soundcloud.com/you/*
+
+# Internet Speed Tests
+speedtest.net*
+*.speedtest.net*
+fast.com*
+speed.cloudflare.com*
+testmy.net*

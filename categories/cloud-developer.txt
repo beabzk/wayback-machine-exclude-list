@@ -1,0 +1,58 @@
+# ==========================================
+# Cloud Infrastructure & Developer Portals
+# ==========================================
+# Dashboards exposing secret keys, infrastructure states, telemetry, or private code.
+
+# Cloud Providers
+console.aws.amazon.com*
+*.console.aws.amazon.com*
+console.cloud.google.com*
+portal.azure.com*
+dash.cloudflare.com*
+cloud.digitalocean.com*
+cloud.linode.com*
+app.hetzner.com*
+console.scaleway.com*
+console.oracle.com*
+
+# Deployment & Hosting Platforms
+vercel.com/dashboard*
+app.netlify.com*
+dashboard.heroku.com*
+railway.app*
+*.railway.app*
+render.com*
+*.render.com*
+fly.io/apps*
+
+# Databases & Backends
+supabase.com/dashboard*
+app.supabase.com*
+console.firebase.google.com*
+cloud.mongodb.com*
+neon.tech*
+*.neon.tech*
+planetscale.com*
+*.planetscale.com*
+
+# Code Repositories & CI/CD Private Sections
+github.com/settings*
+github.com/notifications*
+github.com/*/settings*
+gitlab.com/-/profile*
+gitlab.com/profile*
+gitlab.com/*/settings*
+bitbucket.org/account/*
+
+# Observability & Monitoring
+sentry.io*
+*.sentry.io*
+app.datadoghq.com*
+*.datadoghq.com*
+app.launchdarkly.com*
+
+# API & Dev Tools
+web.postman.co*
+hub.docker.com/settings*
+app.snyk.io*
+app.pulumi.com*

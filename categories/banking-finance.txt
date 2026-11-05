@@ -1,0 +1,80 @@
+# ==========================================
+# Banking, Payments & Financial Services
+# ==========================================
+# Highly confidential personal finance, payment checkouts, and banking portals.
+
+# Payment Gateways & Wallets
+paypal.com*
+*.paypal.com*
+checkout.stripe.com*
+dashboard.stripe.com*
+wise.com*
+*.wise.com*
+revolut.com*
+*.revolut.com*
+venmo.com*
+*.venmo.com*
+cash.app*
+*.cash.app*
+
+# Major US Banks & Credit Cards
+chase.com*
+*.chase.com*
+bankofamerica.com*
+*.bankofamerica.com*
+wellsfargo.com*
+*.wellsfargo.com*
+citi.com*
+*.citi.com*
+capitalone.com*
+*.capitalone.com*
+americanexpress.com*
+*.americanexpress.com*
+discover.com*
+*.discover.com*
+usbank.com*
+*.usbank.com*
+pnc.com*
+*.pnc.com*
+
+# International Banks
+barclays.co.uk*
+*.barclays.co.uk*
+hsbc.com*
+*.hsbc.com*
+hsbc.co.uk*
+*.hsbc.co.uk*
+lloydsbank.com*
+*.lloydsbank.com*
+santander.com*
+*.santander.com*
+
+# Brokerage & Investing
+fidelity.com*
+*.fidelity.com*
+vanguard.com*
+*.vanguard.com*
+schwab.com*
+*.schwab.com*
+robinhood.com*
+*.robinhood.com*
+etrade.com*
+*.etrade.com*
+
+# Tax & Credit Monitoring
+turbotax.intuit.com*
+mint.intuit.com*
+creditkarma.com*
+*.creditkarma.com*
+experian.com*
+*.experian.com*
+
+# Cryptocurrency Exchanges
+coinbase.com*
+*.coinbase.com*
+binance.com*
+*.binance.com*
+kraken.com*
+*.kraken.com*
+crypto.com*
+*.crypto.com*

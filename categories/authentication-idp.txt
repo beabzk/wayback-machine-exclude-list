@@ -1,0 +1,44 @@
+# ==========================================
+# Authentication, Identity Providers & Password Managers
+# ==========================================
+# SSO endpoints, 2FA workflows, and password manager web vaults.
+
+# Identity Providers (IdP) & SSO
+accounts.google.com*
+login.microsoftonline.com*
+login.live.com*
+appleid.apple.com*
+*.auth0.com*
+*.okta.com*
+*.onelogin.com*
+*.clerk.accounts.dev*
+
+# Password Managers Web Vaults
+vault.bitwarden.com*
+vault.bitwarden.eu*
+*.1password.com*
+*.1password.ca*
+*.1password.eu*
+app.dashlane.com*
+lastpass.com*
+*.lastpass.com*
+keepersecurity.com*
+*.keepersecurity.com*
+my.nordaccount.com*
+
+# Generic Auth & Account Paths
+# Excludes authentication workflows across sites without blocking domain homepages
+*/login*
+*/signin*
+*/signup*
+*/sign-in*
+*/sign-up*
+*/oauth/*
+*/oauth2/*
+*/auth/*
+*/authenticate*
+*/2fa*
+*/mfa*
+*/reset-password*
+*/password_reset*
+*/forgot-password*

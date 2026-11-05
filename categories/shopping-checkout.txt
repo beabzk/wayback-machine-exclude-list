@@ -1,0 +1,35 @@
+# ==========================================
+# E-Commerce Carts, Orders & Checkouts
+# ==========================================
+# Private order confirmations, shipping addresses, credit card forms, and shopping carts.
+
+# Amazon Private Account Sections
+amazon.com/gp/cart*
+amazon.com/gp/buy*
+amazon.com/gp/css/order-history*
+amazon.com/checkout*
+amazon.com/csm/*
+amazon.co.uk/gp/cart*
+amazon.co.uk/gp/buy*
+amazon.co.uk/gp/css/order-history*
+amazon.co.uk/checkout*
+amazon.de/gp/cart*
+amazon.de/gp/buy*
+amazon.de/gp/css/order-history*
+amazon.de/checkout*
+
+# eBay Cart & Checkout
+cart.ebay.com*
+checkout.ebay.com*
+cart.ebay.co.uk*
+checkout.ebay.co.uk*
+
+# Generic Checkout & Cart Paths (e.g. Shopify, WooCommerce, Magento)
+*/cart*
+*/checkout*
+*/checkouts/*
+*/order-history*
+*/order-status*
+*/my-account*
+*/my-orders*
+*/billing*
